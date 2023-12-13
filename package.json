@@ -1,0 +1,30 @@
+{
+  "name": "first_npm_package",
+  "version": "1.0.0",
+  "description": "NPM package that I made and published. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekjotsinghmakhija/first_npm_package.git"
+  },
+  "keywords": [
+    "npm_package",
+    "npm"
+  ],
+  "author": "Ekjot Singh",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./"
+  },
+  "bugs": {
+    "url": "https://github.com/ekjotsinghmakhija/first_npm_package/issues"
+  },
+  "homepage": "https://github.com/ekjotsinghmakhija/first_npm_package#readme",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
