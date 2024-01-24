@@ -1,8 +1,7 @@
 /**
  * @return {string} The string "Hello, world!"
  */
-function helloWorld() {
+export default function helloWorld() {
   return 'Hello, world!';
 }
 
-module.exports = helloWorld;
